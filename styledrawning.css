@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(243, 243, 243);
+    display: flex;
+}
+.instagram-home-login{
+    display: flex;
+    /*align-items: flex-start; Aqui, optar por alinhar no início (ou deixar o padrão html que é flex-start) e depois aplicar um padding, pode ser  interessante*/
+    /*justify-content: left; não precisa, o html já carrega este padrão, a página poderia ser centralizada + padding*/
+    justify-content:center;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+
+/*Início css - coluna 1*/
+.instagram-col-1{
+                                            /*Comentário q:> border: 10px solid brown; Utilizado apenas para visualizar margens padrões html*/
+    padding-top: 41px;                      /*Comentário q:> Esse valor você pode adquirir do próprio código fonte original :)*/
+    padding-right: 71.5px;
+    height: 91%;
+    width: 41%;
+}
+.instagram-phone{
+   height: 100%;
+   width: 100%;
+}
+/*Fim css - coluna 1*/
+
+/*Início css - coluna 2*/
+
+.instagram-col-2{
+                    /*border: 10px solid rgb(247, 66, 66); Comentário q:> Utilizado apenas para visualizar margens padrões html*/
+    padding-top: 41px;
+    padding-left: 71.5px;
+    height: 91vh;
+    width: 37%;
+}
+    /*------------Início css - linha 1, coluna 2------------*/
+.linha-1{
+    border: 1px solid lightgray;
+    background-color: white;
+    padding-bottom: 10px;
+}
+.linha-1-logo, .linha-2-perfilInstagram,.linha-3-buttonsAccess,.linha-4-buttonsAccess {
+    display: flex;
+    justify-content: center;
+    padding-top: 41px;
+    
+}
+.linha-1-logo{
+    height: 151px;
+    padding-top: 41px;
+}
+.profile-photo img{
+    height: 451px;
+    border-radius: 50%;
+}
+.instagram-login{
+    font-size: 41px;
+    background-color: rgb(63, 63, 247);
+    padding: 15px;
+    border: 1px solid lightgray;
+    border-radius: 17px;
+    color: whitesmoke;
+}
+.instagram-logout{
+    font-size: 37px;
+}
+
+    /*------------Fim - linha 1 coluna 2------------*/
+
+    /*------------Início css - linha 2, coluna 2------------*/
+    .linha-2 {
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 17px;
+        padding: 27px;
+        font-size: 31px;
+        background-color: white;
+        border: 1px solid lightgray;
+    }
+
+    .not-account, .notaccount, .notaccount span{
+        font-size: 23px;
+    }
+    .not-account{
+        color: gray;
+    }
+    .notaccount span{
+        color: rgb(116, 114, 231);
+    }
+    /*------------Fim - linha 2 coluna 2------------*/
+
+    /*------------Início css - linha 2, coluna 2------------*/
+    .linha-3, .linha-3 p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction:column;
+        padding: 10px;
+        font-size: 31px;
+    }
+   
+   
+    /*------------Fim - linha 3 coluna 2------------*/
+/*Fim css - coluna 2*/
+
+
+
+
+
+
+
+
